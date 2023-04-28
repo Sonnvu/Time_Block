@@ -7,7 +7,7 @@
 - Arduino IoT Device 
 - Database
 - Web Application
-### 1. Design Diagram: Original Concept :one:
+### 1. Design Approach Diagram: Original Concept :one:
 <!-- ![image](https://user-images.githubusercontent.com/97687998/235034610-1ed8fc16-2aed-4788-9813-e8f56a0c9c95.png)
 ![image](https://user-images.githubusercontent.com/97687998/235016566-6aaba4b7-b96d-48fc-b577-fcef49c668a0.png) -->
 ![image](https://user-images.githubusercontent.com/97687998/235034385-78148da6-6298-4ac0-862a-45d4cafce68d.png)
@@ -19,7 +19,7 @@
 
 **Web Application**: What I wanted to do with the software side of the project was to build a calendar web app from scratch, which will pull data from various sources for current date, time, etc. and store various timer in a AWS database.
 
-### 2. Design Diagram: Experimental Design :screwdriver::hammer_and_pick: :two:
+### 2. Design Approach Diagram: Experimental Design :screwdriver::hammer_and_pick: :two:
 ![image](https://user-images.githubusercontent.com/97687998/235255598-2a2bba9e-1aa6-4b55-b9a2-ba39ad069e68.png)
 
 **IoT Device:** In the experimental stage, there are no changes in the IoT Device design.
