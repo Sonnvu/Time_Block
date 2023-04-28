@@ -53,7 +53,7 @@ This is what a JSON payload structure that will be sent to Clockify will look li
 ![File (24) (2)](https://user-images.githubusercontent.com/97687998/235270829-1a2f99f0-67c0-4f08-a71a-25aaabf6ca63.jpg)
 <br> At power up, Time Block will begin searching for the wifi by accessing the Wifi-ssid and the Wifi-password in the Arduino sketch file indicated by the blinking red light. After successful connection, the red blinking stop and the white light will be on, the MPU-6050 will be initialize and the whichever side is facing upward, it will registered as detected and send a HTTPs Request to Clockify and begin the timer for the associated activity. If the user want to stop the current running timer, they will pick up the cube and give it a good shake. The timer on the website will be stop and be indicated by the red light. The light will stay red indicating that the cube is currently not in recording mode, and only start recording again when there is another shake and the white light turn on. 
 <br>
-![IMG_8923](https://user-images.githubusercontent.com/97687998/235271383-418f7be1-be4d-4ac3-8a5f-3287f009cd49.jpg)
+![IMG_8923 (1)](https://user-images.githubusercontent.com/97687998/235271431-1e06957a-6bd7-4614-aaa1-59fa6f6fcf73.jpg)
 <br>
 # Design Testing
 
