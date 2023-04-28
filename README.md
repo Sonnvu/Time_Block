@@ -4,8 +4,10 @@
 <br>
 <br>
 **Original Design Concepts:** Initially, project Time Block consist of 3 component:
-- IoT Device 
+- Arduino IoT Device 
 - Database
 - Web Application
+### Design Diagram
+![image](https://user-images.githubusercontent.com/97687998/235016566-6aaba4b7-b96d-48fc-b577-fcef49c668a0.png)
 
-At the early stage of development, the first component, which is the 
+At the early stage of development, the first component, which is the IoT device, consist of two main component: The microcontroller/WiFi module ESP32-WROOM-32 and the MPU-6050 accelerometer 
