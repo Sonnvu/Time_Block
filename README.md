@@ -43,7 +43,7 @@ As we can see from the picture above, the first protoype was created and the pur
 ![image](https://user-images.githubusercontent.com/97687998/235267713-0f133a7b-f324-46c6-b7a3-a8d700f39519.png)
 For software verification, I used **Postman API Platform** to simulate sending HTTPs Request to verify that the structure of the JSON payload is valid to trigger add time entry and stop timer functionality of Clockify. From the picture above, a GET HTTPS request was sent to get all workspace information including the workspace ID and all of the activitiy ID for the JSON payload file. By sending GET request like this, I was able  to obtain essential information to fill in the sample request template specified by Clockify API:
 <br>
-![image](https://user-images.githubusercontent.com/97687998/235268185-9c3eff44-95c6-4c05-a623-f71fe9a60749.png)
+![235268185-9c3eff44-95c6-4c05-a623-f71fe9a60749 (1)](https://user-images.githubusercontent.com/97687998/235268378-350737e2-aeac-4ced-a561-f2eb63cba12b.png)
 This is what a JSON payload structure that will be sent to Clockify will look like, and our goal is to implement a function that construct a JSON payload that have this structure with all the necessary information filled in, which is obtainable by using Postman API.
 
 
