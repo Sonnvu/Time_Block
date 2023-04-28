@@ -34,9 +34,13 @@
 **Final Approach:** I soon realized that the result from scratch was not as exiciting compared to the amount of work that was being put in. I decided to steer the focus back to having the original goal of a calendar view and time block demonstrating time spent on activities instead of simple bar graph. But instead of reinventing the wheel, I used an already existing web app called Clockify and use a more direct approach. Once the time cube detect a change in whichever side is on top, only then will it send an HTTP Request to the Clockify website via its REST API. There are two main request that the time cube is sending: start timer and stop timer. This way, we are able to achieve aesthetic visualization of data while not having to deal with any backend element at all. After 3 trial, we finally found best direct approach to achieve our goal. 
 
 ## Preliminary Design Verification 
-**Hardware Verification**
+### Hardware Verification
 <br>
 ![IMG_8922 (3)](https://user-images.githubusercontent.com/97687998/235267251-c41aa2b9-9f29-4953-bc84-7f36eda5f882.jpg)
+As we can see from the picture above, the first protoype was created and the purpose is to achieve precise reading of which side is facing up and printing on Serial Monitor the right result.
+### Software Verification
+![image](https://user-images.githubusercontent.com/97687998/235267570-80851684-665e-48f3-bd6a-e3ce1af0d76c.png)
+
 
 
 
