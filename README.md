@@ -33,5 +33,7 @@
 
 **Final Approach:** I soon realized that the result from scratch was not as exiciting compared to the amount of work that was being put in. I decided to steer the focus back to having the original goal of a calendar view and time block demonstrating time spent on activities instead of simple bar graph. But instead of reinventing the wheel, I used an already existing web app called Clockify and use a more direct approach. Once the time cube detect a change in whichever side is on top, only then will it send an HTTP Request to the Clockify website via its REST API. There are two main request that the time cube is sending: start timer and stop timer. This way, we are able to achieve aesthetic visualization of data while not having to deal with any backend element at all. After 3 trial, we finally found best direct approach to achieve our goal. 
 
+## Preliminary Design Verification 
+
 
 
