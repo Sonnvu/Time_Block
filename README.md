@@ -40,7 +40,8 @@
 As we can see from the picture above, the first protoype was created and the purpose is to achieve precise reading of which side is facing up and printing on Serial Monitor the right result.
 <br>
 ### 2. Software Verification
-![image](https://user-images.githubusercontent.com/97687998/235267570-80851684-665e-48f3-bd6a-e3ce1af0d76c.png)
+![image](https://user-images.githubusercontent.com/97687998/235267713-0f133a7b-f324-46c6-b7a3-a8d700f39519.png)
+For software verification, I used **Postman API Platform** to simulate sending HTTPs Request to verify that the structure of the JSON payload is valid to trigger add time entry and stop timer functionality of Clockify.
 
 
 
