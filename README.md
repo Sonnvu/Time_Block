@@ -50,9 +50,7 @@ This is what a JSON payload structure that will be sent to Clockify will look li
 ## Design Implementation
 **Final Design Overview:** After creating the enclosure after measuring, the final design is ready to be put together. With the vision of time block being a stand-alone device, I decided to add two component: An HiLetgo TP4056 Lithium Battery Charging Module and a Lithium Ion Battery Pack. The design configuration is demonstrated below: 
 
-![File (23)](https://user-images.githubusercontent.com/97687998/235270583-55b74a82-ff76-4ef0-b913-b34bb091f40f.jpg)
-
-
+![File (24)](https://user-images.githubusercontent.com/97687998/235270686-1e23147a-9ed3-47ee-8cb9-b888235a27b0.jpg)
 
 
 
