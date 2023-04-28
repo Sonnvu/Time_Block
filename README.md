@@ -35,7 +35,6 @@
 
 ## Preliminary Design Verification 
 ### 1. Hardware Verification
-<br>
 ![IMG_8922 (3)](https://user-images.githubusercontent.com/97687998/235267251-c41aa2b9-9f29-4953-bc84-7f36eda5f882.jpg)
 <br>
 As we can see from the picture above, the first protoype was created and the purpose is to achieve precise reading of which side is facing up and printing on Serial Monitor the right result.
