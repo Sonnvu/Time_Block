@@ -36,7 +36,8 @@
 ## Preliminary Design Verification 
 **Hardware Verification**
 <br>
-![IMG_8922 (2)](https://user-images.githubusercontent.com/97687998/235267125-53d574ee-f165-4e71-a1d5-160f4e4e44f7.jpg)
+![IMG_8922 (3)](https://user-images.githubusercontent.com/97687998/235267251-c41aa2b9-9f29-4953-bc84-7f36eda5f882.jpg)
+
 
 
 
