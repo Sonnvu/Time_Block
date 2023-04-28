@@ -7,10 +7,12 @@
 - Arduino IoT Device 
 - Database
 - Web Application
-### Design Diagram 1 - Original Concept
+### Design 1 Diagram: Original Concept
 <!-- ![image](https://user-images.githubusercontent.com/97687998/235034610-1ed8fc16-2aed-4788-9813-e8f56a0c9c95.png)
 ![image](https://user-images.githubusercontent.com/97687998/235016566-6aaba4b7-b96d-48fc-b577-fcef49c668a0.png) -->
 ![image](https://user-images.githubusercontent.com/97687998/235034385-78148da6-6298-4ac0-862a-45d4cafce68d.png)
 
 
-At the early stage of development, the first component, which is the IoT device, consist of two main component: The microcontroller/WiFi module ESP32-WROOM-32 and the MPU-6050 accelerometer 
+**IoT Device:** At the early stage of development, the first component, which is the IoT device, consist of two main component: The microcontroller/WiFi module ESP32-WROOM-32 and the MPU-6050 accelerometer. For the first week, I was getting familiar with the two modules while also exploring different approaches in how to send and what to send in term of data to the database to achieve my goal. At the end of milestone 1, which is to get the hardware ready for data transfer to the cloud, I successfully programmed the accelerometer to track the orientation of the cube and recognize which side is facing up. Since the cube has 6 sides, I created 6 variables side1 to side6 and assign value of 1 to the sides that is up while 0 to the others. I bunch up the variable into a JSON file for transfer, and create a publish message function to send data to AWS IoT Core via MQTT messaging. Since constantly uploading data not only maintainable but also uses a large amount of resources that a free AWS account cannot provide, the IoT device is implemented so that it send data when and only when there is a change in side orientation. 
+
+**AWS Database Services:** 
