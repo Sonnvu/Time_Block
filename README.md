@@ -22,3 +22,16 @@
 ### Design 2 Diagram: Experimental Design
 ![image](https://user-images.githubusercontent.com/97687998/235255598-2a2bba9e-1aa6-4b55-b9a2-ba39ad069e68.png)
 
+**IoT Device:** In the experimental stage, there are no changes in the IoT Device design.
+
+**AWS Database Service:** Due to the huge learning in getting adept to each of the AWS services as I was 2 week in without being able to set up database to store time, date and other essential information for a calendar web app from scratch, I decided to simplify the software side and simple create a React web app that has bar graph of the time spent on different activities. The React web app will graph data from AWS IoT Core by subscribing to the same topic that is published via MQTT messaging without the need to store them in any database since it will he handle by the javascript web app
+
+**React Web App**: The focus shift from a calendar web app to a dashboard displaying bar graph of time spent on different activities
+
+### Design 3 Diagram: Final Approach
+![image](https://user-images.githubusercontent.com/97687998/235258817-49704a61-fe04-4aca-a71f-6bb8bc5d5698.png)
+
+**Final Approach:** I soon realized that the result from scratch was not as exiciting compared to the amount of work that was being put in. I decided to steer the focus back to having the original goal of a calendar view and time block demonstrating time spent on activities instead of simple bar graph. But instead of reinventing the wheel, I used an already existing web app called Clockify and use a more direct approach. Once the time cube detect a change in whichever side is on top, only then will it send an HTTP Request to the Clockify website via its REST API. There are two main request that the time cube is sending: start timer and stop timer. This way, we are able to achieve aesthetic visualization of data while not having to deal with any backend element at all. After 3 trial, we finally found best direct approach to achieve our goal. 
+
+
+
