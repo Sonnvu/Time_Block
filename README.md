@@ -47,6 +47,10 @@ For software verification, I used **Postman API Platform** to simulate sending H
 <br>
 This is what a JSON payload structure that will be sent to Clockify will look like, and our goal is to implement a function that construct a JSON payload that have this structure with all the necessary information filled in, which is obtainable by using Postman API.
 
+## Design Implementation
+**Final Design Overview:** After creating the enclosure after measuring, the final design is ready to be put together. With the vision of time block being a stand-alone device, I decided to add two component: An HiLetgo TP4056 Lithium Battery Charging Module and a Lithium Ion Battery Pack. The design configuration is demonstrated below: 
+
+![File (23)](https://user-images.githubusercontent.com/97687998/235270583-55b74a82-ff76-4ef0-b913-b34bb091f40f.jpg)
 
 
 
