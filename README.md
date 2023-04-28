@@ -19,7 +19,7 @@
 
 **Web Application**: What I wanted to do with the software side of the project was to build a calendar web app from scratch, which will pull data from various sources for current date, time, etc. and store various timer in a AWS database.
 
-### Design 2 Diagram: Experimental Design
+### Design 2 Diagram: Experimental Design :screwdriver::hammer_and_pick:
 ![image](https://user-images.githubusercontent.com/97687998/235255598-2a2bba9e-1aa6-4b55-b9a2-ba39ad069e68.png)
 
 **IoT Device:** In the experimental stage, there are no changes in the IoT Device design.
