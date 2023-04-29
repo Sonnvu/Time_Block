@@ -57,8 +57,14 @@ This is what a JSON payload structure that will be sent to Clockify will look li
 ![IMG_8923 (1)](https://user-images.githubusercontent.com/97687998/235271431-1e06957a-6bd7-4614-aaa1-59fa6f6fcf73.jpg)
 <br>
 # Design Testing
+* Wifi Testing: WiFi connection testing was done by observing the behavior of the LEDs as well as checking in Serial Monitor
+* MPU-6050 Testing: Orientation testing was done by printing the side onto the Serial Monitor
+![image](https://user-images.githubusercontent.com/97687998/235272074-80594627-ebf9-4288-b972-9f3bd744000a.png)
+<br>
+* Video Demonstration: https://youtu.be/Tgg8CX6MwBA
 
-
+# Summary, Conclusions, and Future Work
+This assignment has help me a lot in gaining experience with cloud development and IoT device in general. It was a great exposure to AWS services and the ESP32 WiFi module. Even though the final product is a rough draft, the functionality prove to be quite useful. Yet if I were to do another design iteration, there are many aspect that needs to be improved. The two LEDs were not adequate enough as indication for users to see. The product in the future would most likely need something more such as an LCD screen or an audio indication to specify whether if connection failed, reconnecting to WiFi, or other states. Another thing that could be improved is the functinality to reconnect to WiFi if connection is lost or disrupted. Last but not least, there are a lot more could be done to the enclosure to improve the aesthetic of the product. Nevertheless, it was a great experience working on this final project and many valuable lessons were learned throughout the process.
 
 
 
