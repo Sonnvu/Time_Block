@@ -6,12 +6,12 @@
 
 #include "time.h"
 
-const char* ssid = "Fios-V9jLG"; // Fios-V9jLG
-const char* password = "rot54cane73flax"; //rot54cane73flax
-const char* api_key = "NWE2NWM4ODMtNmZkZi00YmJjLWE0YjktOGQzMzFmMGYyYjZk";
+const char* ssid = "INSERT-WIFI-SSID-HERE"; 
+const char* password = "INSERT_WIFI_PASSWORD_HERE"; 
+const char* api_key = "INSERT_API_KEY_HERE"; // using POSTMAN
 
-const char* workspace_id = "629e353aee936d4be89efa9d";
-const char* user_id = "629e3539ee936d4be89efa9a";
+const char* workspace_id = "INSERT_WORKSPACE_ID_HERE"; // using POSTMAN
+const char* user_id = "INSERT_USER_ID_HERE";
 
 const char* project_id = "629e3b82ee936d4be89f9b21";
 
